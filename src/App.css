@@ -1,8 +1,22 @@
-#root {
-  max-width: 1280px;
-  /* margin: 0 auto; */
-  /* padding: 2rem;
-  text-align: center; */
+.app{
+    height:100vh;
 }
 
+ .sections{
+    width:100%;
+     top:70px  ;
+     background-color:blueviolet; 
+     height:calc(100vh - 70px);
+    position: relative;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none;
+}
 
+.sections *{
+    width: 100vw;
+    height:calc(100vh - 70px) ;
+    scroll-snap-align: start;
+}
+.sections::-webkit-scrollbar {
+    display: none;
+  }
