@@ -11,12 +11,12 @@ function App() {
 
   return (
     <div className="app">
-    <Topbar/>
+    <Topbar style={{backgroundColor:'red'}}/>
       <div className="sections">
+    <Intro/>
+    <Portfolio/>
     <Works/>
     <Testimonials/>
-    <Portfolio/>
-    <Intro/>
     <Contact/>
       </div>
     </div>

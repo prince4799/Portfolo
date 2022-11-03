@@ -2,9 +2,12 @@
     height:100vh;
 }
 
+
+
  .sections{
     width:100%;
      top:70px  ;
+     scroll-behavior: smooth;
      background-color:blueviolet; 
      height:calc(100vh - 70px);
     position: relative;
@@ -13,7 +16,7 @@
 }
 
 .sections *{
-    width: 100vw;
+    width: 100%;
     height:calc(100vh - 70px) ;
     scroll-snap-align: start;
 }
