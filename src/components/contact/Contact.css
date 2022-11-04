@@ -1,5 +1,17 @@
-.contact{
-    background-color: antiquewhite;
+.intro{
+    background-color: #fff;
     font-weight: bold;
     color: azure;
+    flex-direction: row;
+    display: flex;
+}
+.left{
+    background-color: red;
+    flex:7;
+
+}
+
+.right{
+    background-color: yellow;
+    flex:3;
 }

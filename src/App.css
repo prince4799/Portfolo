@@ -8,7 +8,6 @@
     width:100%;
      top:70px  ;
      scroll-behavior: smooth;
-     background-color:blueviolet; 
      height:calc(100vh - 70px);
     position: relative;
     scroll-snap-type: y mandatory;
