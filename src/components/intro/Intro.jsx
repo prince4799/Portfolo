@@ -11,7 +11,7 @@ function Intro() {
     init(textRef.current, {
       backDelay: 1500,
       backSpeed: 60,
-      strings: [" React Native ", "React js ", "Node "],
+      strings: [" React Native ", "React.js ", "Node.js "],
       showCursor: false
 
     });
@@ -19,9 +19,9 @@ function Intro() {
 
   return (
     <div className='newIntro' id='intro'>
-      <div className="leftintro">
-        <div className="imgcontainer">
-          <div class="outer circle">
+      <div className="leftintro" id='left'>
+        <div className="imgcontainer" id='imgcontainer'>
+          <div class="outer circle" id='outer'>
             <img className='img' src="src/assets/Images/personIcon.png" />
           </div>
         </div>

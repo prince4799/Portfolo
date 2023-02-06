@@ -62,3 +62,26 @@
     justify-items: center;
 
 }
+
+@media only screen and (max-width: 600px)
+{
+  #logo{
+   font-size: medium;
+  }
+  #left {
+    font-size: small;
+}
+#contact{
+    width:fit-content;
+}
+
+#contactContainer{
+    width: max-content;
+    min-width: 60%;
+    font-size: small;
+
+}
+ #hamburger{
+    display: none;
+ }
+}

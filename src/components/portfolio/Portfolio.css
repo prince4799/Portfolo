@@ -1,3 +1,69 @@
-.portfolio{
+.portfolio {
     background-color: azure;
+    overflow: hidden;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+
+}
+
+.headingcontainer {
+    /* align-self:center ; */
+    /* background-color: #fff; */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 20%;
+    align-self: center;
+    /* display: flex; */
+    text-align: center;
+    flex-direction: row;
+}
+
+.heading {
+    align-self: center;
+    overflow: hidden;
+    /* background-color: red; */
+    color: hsla(240, 68%, 13%, 1);
+    font-size: 50px;
+    /* filter: drop-shadow(2px 4px 50px black); */
+    /* box-shadow: none; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lists{
+
+ 
+        justify-content: center;
+        overflow: hidden;
+        display: flex;
+        margin: revert;
+        padding: unset;
+}
+
+.portfolio ul li{
+    background-color: hsla(240, 68%, 13%, 1);
+    margin: 50px;
+    padding: 7px;
+    filter: drop-shadow(20px 20px 10px hsla(240, 68%, 13%, 0.8));
+    box-shadow: none;
+    /* height:10%;
+    width:140px; */
+    border-radius: 10%;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    text-size-adjust: unset;
+    font-size: 14px;
+
+}
+
+.container{
+    overflow: hidden;
+}
+
+.item{
+    overflow: hidden;
 }

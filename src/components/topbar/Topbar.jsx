@@ -22,27 +22,30 @@ function Topbar() {
     <Navbar bg="light" expand="lg" className='topbar' >
     <Container className='newstyle'>
       <div className='logo'>
-          <h1 >♕.☧ℝ༐ℕℂ𝔼...</h1>
+          <h1 id='logo' >♕.☧ℝ༐ℕℂ𝔼...</h1>
       </div>
-        <Navbar.Collapse className="contactContainer">
+        <Navbar.Collapse className="contactContainer" id='contactContainer'>
         
-       <div className='contact'>
+       <div className='contact' >
          <PersonIcon 
          color= '#0b0b39df'
          
          style={{fontSize:24, alignSelf: 'center', justifyContent: 'center',}} />
          <a href="tel:555-666-7777"
           className='left'
+          id='left'
           style={{backgroundColor:' rgba(11, 11, 57, 1)'}}
         >
           +91 9621205058</a>
       </div>
-      <div className='contact'>
+      <div className='contact' id='contact'>
         <EmailOutlinedIcon style={{ alignSelf: 'center', justifyContent: 'center', }} />
         <a
           href="mailto: softprince4799@gmail.com"
           style={{backgroundColor:' rgba(11, 11, 57, 1)'}}
-          className='left'>
+          className='left'
+          id='left'
+          >
           softprince4799@gmail.com</a>
     </div>
         </Navbar.Collapse>

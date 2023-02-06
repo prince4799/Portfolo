@@ -2,11 +2,11 @@
   /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
   */
-  background-color: #242424;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 
+  background-color: red;
+  color: rgba(255, 255, 255, 0.87);
 
 }
 
